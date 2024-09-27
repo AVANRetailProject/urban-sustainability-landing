@@ -1,0 +1,261 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Urban Sustainability with Adrian</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background-image: url('https://images.unsplash.com/photo-1536766763657-b1a67d6af485?fit=crop&w=1500&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-content {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .hero-content p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            text-decoration: none;
+            background-color: #ff7f50;
+            padding: 15px 30px;
+            color: white;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #ff6347;
+        }
+
+        /* Solutions Section */
+        .solutions-section {
+            background-color: #ffffff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .solution {
+            margin-bottom: 40px;
+            padding: 30px;
+        }
+
+        /* Layout: Alternating Rows */
+        .solution-alternate {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .solution-alternate:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .solution-alternate img {
+            width: 45%;
+            border-radius: 10px;
+        }
+
+        .solution-alternate-content {
+            width: 50%;
+            text-align: left;
+        }
+
+        .solution-alternate h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .solution-alternate p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        /* Layout: Two-Column Grid */
+        .solution-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            text-align: left;
+        }
+
+        .solution-grid h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .solution-grid p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .hero-content p {
+                font-size: 1.2rem;
+            }
+
+            .cta-button {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+
+            .solution-alternate {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .solution-alternate img {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .solution-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Access Window -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Meet Adrian, Your AI for Urban Sustainability</h1>
+            <p>Get cutting-edge, future-focused solutions for resilient, sustainable cities.</p>
+            <a href="https://chatgpt.com/g/g-JDQV9OTQP-urban-sustainability-ai-copy" target="_blank" class="cta-button">Start a Conversation with Adrian</a>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions-section">
+        <div class="container">
+            
+            <!-- AI-Driven Predictive City Evolution Models (Alternate Layout) -->
+            <div class="solution-alternate">
+                <div class="solution-alternate-content">
+                    <h2>AI-Driven Predictive City Evolution Models</h2>
+                    <p>Simulate long-term climate scenarios and socio-economic shifts to help cities become future-proof. Adrian uses data analytics and AI to visualize future challenges and optimize urban layouts to adapt to population growth, environmental changes, and economic trends.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1581093458419-8193cf2f3394?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=1200&q=80" alt="AI-Driven City Model">
+            </div>
+
+            <!-- Quantum Computing for Sustainability (Alternate Layout) -->
+            <div class="solution-alternate">
+                <img src="https://images.unsplash.com/photo-1573495628366-179b28b2b6c5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=1200&q=80" alt="Quantum Computing for Sustainability">
+                <div class="solution-alternate-content">
+                    <h2>Quantum Computing for Sustainability</h2>
+                    <p>Quantum technology can optimize city energy grids in real-time, leading to reduced carbon footprints and higher efficiency. Adrian uses quantum-based algorithms to help identify sustainable materials, lower energy consumption, and manage renewable energy resources with precision.</p>
+                </div>
+            </div>
+
+            <!-- AI-Augmented Biophilic Design (Grid Layout) -->
+            <div class="solution-grid">
+                <div>
+                    <h2>AI-Augmented Biophilic and Biomimetic Design</h2>
+                    <p>Integrating nature into urban spaces improves mental well-being, air quality, and biodiversity. Adrian enhances this approach using AI to predict the most effective nature-inspired designs. By mimicking nature’s processes, we can create environments that are not only sustainable but also enriching for the human experience.</p>
+                </div>
+                <div>
+                    <h2>Self-Healing and Adaptive Building Materials</h2>
+                    <p>Imagine infrastructure that repairs itself. Adrian advises on the latest developments in self-healing concrete and adaptive materials that reduce maintenance costs and increase building longevity. These smart materials respond to environmental stress, ensuring a more resilient urban infrastructure.</p>
+                </div>
+            </div>
+
+            <!-- Nano-Enhanced Urban Environments (Alternate Layout) -->
+            <div class="solution-alternate">
+                <div class="solution-alternate-content">
+                    <h2>Nano-Enhanced Urban Environments</h2>
+                    <p>Nano-technology is revolutionizing urban environments. Adrian recommends nano-coatings that reduce air pollution and nano-sensor networks for real-time air quality monitoring. These innovations ensure cleaner cities and provide actionable data for continuous improvement in urban health.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1556761175-129418cb2dfe?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=1200&q=80" alt="Nano-Enhanced City">
+            </div>
+
+            <!-- Generative Urban Design (Grid Layout) -->
+            <div class="solution-grid">
+                <div>
+                    <h2>Generative Urban Design</h2>
+                    <p>Adrian can generate multiple urban designs within minutes, optimizing layouts for energy efficiency, traffic flow, green spaces, and more. This AI-driven approach ensures that cities evolve sustainably while meeting the needs of their inhabitants efficiently and with minimal waste of resources.</p>
+                </div>
+                <div>
+                    <h2>Urban Circular Economy & Resource Recovery</h2>
+                    <p>Circular economies are the future. Adrian helps cities implement waste-to-resource systems and urban mining techniques. By closing the loop, waste is minimized, and cities can recover valuable materials from discarded items, driving sustainability forward.</p>
+                </div>
+            </div>
+
+            <!-- AI for Social Equity & Governance (Alternate Layout) -->
+            <div class="solution-alternate">
+               <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a06?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=1200&q=80" 
+     alt="AI for Social Equity and Governance">
+
+                <div class="solution-alternate-content">
+                    <h2>AI for Social Equity & Governance</h2>
+                    <p>Urban planning impacts every aspect of social equity. Adrian predicts the social impacts of city planning decisions, ensuring inclusivity in urban development. By focusing on equitable access to resources, transportation, and housing, Adrian promotes cities that work for all, not just a few.</p>
+                </div>
+            </div>
+
+            <!-- AI-Enhanced Vertical Farming (Alternate Layout) -->
+            <div class="solution-alternate">
+                <div class="solution-alternate-content">
+                    <h2>AI-Enhanced Vertical Farming</h2>
+                    <p>As cities grow, local food production becomes essential. Adrian uses AI to optimize urban vertical farms, increasing food production in small spaces. This helps reduce carbon emissions from transportation and ensures food security within cities, contributing to their overall resilience.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1531089073311-b7cbfe4f6470?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&w=1200&q=80" alt="AI-Enhanced Vertical Farming">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer style="background-color: #333; color: white; padding: 30px 0; text-align: center;">
+        <p>&copy; 2024 Urban Sustainability AI. All rights reserved.</p>
+        <p>Developed by Adrian, your AI guide for sustainable urban futures.</p>
+    </footer>
+
+</body>
+</html>
